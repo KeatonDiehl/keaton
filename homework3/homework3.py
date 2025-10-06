@@ -89,9 +89,7 @@ def while_min(lst):
 			if lst[i] < m:
 				m = lst[i]
 			i += 1			# move to the next item in the list
-			return m
-lst = [132, 1, 234, 2, 0]
-print(while_min(lst))
+		return m
 
 def sum_digits(n):
 	# finds the sum of the integers in a number n
